@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add box-sizing for better layout */
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+    font-family: Arial, sans-serif; /* Specify a fallback font family */
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 0.75rem; /* Adjust padding for better spacing */
+    margin-bottom: 1rem; /* Add some space between elements */
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    padding: 0.5rem; /* Add padding for better appearance */
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+  }
+  
+  .msg {
+    margin: 2rem 0;
+    text-align: center; /* Center-align the message */
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.75rem;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+  }
+  
+  form button:hover {
+    background-color: #8e3c7e; /* Darken the background color on hover */
+  }
+  
